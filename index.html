@@ -1,21 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="vendor/themes/vue.css">
+	<meta charset="utf-8">
+  <title>Lysmarine</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+	<meta name="description" content="Navigational operating system for Raspberrypi">
+
+  <link rel="stylesheet" href="theme-simple-dark.css">
+	<style> :root { --theme-hue: 325; } </style>
 </head>
+
 <body>
-  <div id="app"></div>
+	<div id="app"></div>
+
   <script>
-    window.$docsify = {
-      name: '',
-      repo: ''
-    }
-  </script>
-  <script src="vendor/docsify.js"></script>
+		window.$docsify = {
+			name       : 'LysMarine',
+			repo       : 'https://gitlab.com/lysmarine/lysmarine',
+			coverpage  : 'coverpage.md',
+			homepage   : 'README.md',
+			auto2top   : true,
+			maxLevel   : 3,
+			subMaxLevel: 3,
+			themeable : {
+			}
+	};
+	</script>
+
+	<script src="docsify.min.js"></script>
+	<script src="docsify-themeable"></script>
+	<script src="search.js"></script>
+	<script src="docsify-pagination.min.js"></script>
 </body>
+
 </html>
