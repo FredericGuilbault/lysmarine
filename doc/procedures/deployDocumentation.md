@@ -1,5 +1,5 @@
 The documentation of lysmarine is made with the help of docify,
-The code of it is hosted [ Here ](https://gitlab.com/lysmarine/lysmarine)
+The source code of it is hosted [ Here ](https://gitlab.com/lysmarine/lysmarine)
 
 To build the documentation into a website :
 
@@ -10,8 +10,10 @@ npm i docsify-cli -g
 
 
 
-===== Init the repository =====
+===== clone & Init the repository =====
 ```
+git clone https://gitlab.com/lysmarine/lysmarine
+cd lysmarine
 docsify init -l true -t pure ./
 ````
 
