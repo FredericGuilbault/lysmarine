@@ -1,18 +1,22 @@
-# Install lysmarine
+# Install
 
-## With NOOBS
+## Install lysmarine from the NOOBS image
 Lysmarine is still in the early stage, there is no lysmarine.iso image you can just put on a SD card yet. Until then, you have to refer to the lysmarine-gen repository and expect rough edges.
 
-## From source code
-TODO, meanwhile plz refer to :
-[lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen)
+## Build Lysmarine From source code
+```
+git clone https://gitlab.com/lysmarine/lysmarine-gen.git
+cd lysmarine-gen
+sudo CLEAN=1 ./build.sh
+```
+Then you can find the NOOBS at location `work/xxx-lysmarine/export-noobs/`
 
 
-# Install the documentation
+## Run the documentation website
 
 The doc for lysmarine is generated with http://docsify.js.org
 
-To use it localy, First install docsify:
+To use it locally, First install docsify:
 ```
   sudo npm i docsify-cli -g
 ```

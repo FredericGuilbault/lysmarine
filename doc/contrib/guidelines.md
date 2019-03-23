@@ -1,12 +1,19 @@
 # Contribution guidelines
-Lysmarine have a github account for a better reachout but the actual work append on gitlab.
+Lysmarine have a github account for a better reachout but the actual work append on gitlab at
+[https://gitlab.com/lysmarine](https://gitlab.com/lysmarine).
 
-The project [page]() is here and you can read [here]() about the structure of the project
+Most of lysmarine is created in the [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen) repository.
 
-## Versioning
-Versioning format of lysmarine goes like this *`major.minor-status`*. Example: `lysmarine_1.3-dev`  
-Possible status are: `dev`, `rc`, `release`.<br>
-Version number are implemented as tags corresponding to the commit that have been used to make the NOOBs image.
+## Versioning & Branch
+Pre-publishing work have been made in the `lysmarine` branch of `lysmarine-gen`
+
+Now, Since version 0.8 workflow goes like this:  .
+ - Development for the next version append on `develop` branch.
+ - Hot fixes append on a branch named from the version number, then merged to `master` when ready.
+ - Commits from upstream append on the `develop` branch only.
+ - Releases (including fixes) are tagged with their version number.
+ - The official NOOBS image are compiled from `master`.  
+
 
 ## Issues
 If you work on lysmarine, you should create a Issue to state your intent at [lysmarine-gen/issue](https://gitlab.com/lysmarine/lysmarine-gen/issue) .So others will see what you are working on.  
@@ -16,6 +23,7 @@ If you have found an issue or just something that don't feel right. Feel free to
 
 ## Git
 
-  * If you work on a feature, it's best to do it in a branch so the `PR` can be accepted and others can review it before it reach `master`.
+  If you work on a feature, it's best to do it on a separate branch forked from `develop` so the `PR` can be reviewed without preventing you to do some other works.(Or force lysmarine to accept multiples features/fix as a whole).
 
-  * Do merges, not rebases.
+## Community guidelines
+TODO. But the basic apply, Be exelent to each others.

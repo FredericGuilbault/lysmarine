@@ -1,9 +1,8 @@
 
 # What is LysMarine
-LysMarine a linuxOS based on the raspbian build script designed to run on a raspberry.
+LysMarine a linuxOS based on the raspbian core designed to run on a raspberry.
 
-His goal is to provide a stable, lowcost navigation computer for boats.
-
+The goal is to provide a stable, lowcost navigation computer for boats.
 
 
 # How it work
@@ -12,18 +11,18 @@ lys marine is made of :
 
 ## Desktop environment
  - Openbox
- - tint2
+ - fppanel
  - onboard
- - dbmenu
  - chromium
- - terminator
+ - LXterminal
  - leafpad
- - obmenu
+
 
 ## The featured applications are
  - Signalk as communication protocol server
  - Opencpn and tuktuk as chart plotter
  - xygrips as weather app.
+ - speedSample as a speed sample tool for trimming.
 
 ## Background software
  - signalk
