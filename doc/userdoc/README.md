@@ -18,3 +18,9 @@ The raspberry provide multiple ways to connect and interact with instruments and
 [ USB gps dongles ](doc/userdoc/usbgps.md)
 
 [ signalk to opencpn ](doc/userdoc/signalktoopencpn.md)
+
+#services
+
+[ VNC ](doc/userdoc/vnc.md)
+
+[ SSH ](doc/userdoc/ssh.md)
