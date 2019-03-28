@@ -12,6 +12,10 @@ The goal is to provide a stable, lowcost navigation computer for boats.
  - speedSample as a speed sample tool for trimming.
 
 
+# What to do on the first boot
+  [Frist boot](doc/userdoc/firstboot.md)
+
+
 # Instruments connection
 The raspberry provide multiple ways to connect and interact with instruments and sensors.`Signalk` is the central point where all the data should go in and out.
 
@@ -19,8 +23,13 @@ The raspberry provide multiple ways to connect and interact with instruments and
 
 [ signalk to opencpn ](doc/userdoc/signalktoopencpn.md)
 
-#services
 
+
+#services
 [ VNC ](doc/userdoc/vnc.md)
 
 [ SSH ](doc/userdoc/ssh.md)
+
+#data management
+
+[ VNC ](doc/userdoc/charts.md)

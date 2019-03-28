@@ -1,7 +1,7 @@
 
 The service ssh server is disabled by default for security reason. Prior to enable it you should :
 
- - Change pi pi password with the `passwd` command.
+ - Change pi password with the `passwd` command.
 
  To start for the service :
  ```

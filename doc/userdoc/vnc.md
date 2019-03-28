@@ -2,7 +2,6 @@ Lysmarine use provide the x11vnc server to allow desktop sharing of the pi user.
 
 The service is disabled by default for security reason. Prior to enable it you should :
 
- - Change pi pi password with the `passwd` command.
  - set a VNC password with the command `vncpasswd`.
 
  To start for the service only for the current runtime:
