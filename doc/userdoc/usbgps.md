@@ -26,7 +26,7 @@ physical GPS ===> physical USB port ===> udev rules ===> manage_gps.sh ===> gpsd
 ### debugging
   Boot without having the device connected then plug it and fallow the debug chain bellow
 
- - If `ls /dev/ttyLYS*` Outpout a file. this mean that udev have reconised the device you plugged as a USB GPS.
+ - If `ls /dev/ttyLYS*` Output a file. this mean that udev have reconised the device you plugged as a USB GPS.
  - In `tail /var/log/syslog` you should see a row like this one `This USB device is known as a GPS and will be connected to gpsd on port 2947?`. This would mean that `manage_gps.sh` have tried to start gpsd.
  - Try `systemctl status lysgpsd@0.service` and/or `ps aux | grep gpsd` to validate that gpsd daemon is running.
  - Check with `gpsmon 127.0.0.1:29470` that you receive NMEA data and have your position.

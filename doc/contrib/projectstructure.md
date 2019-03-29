@@ -1,5 +1,5 @@
 # Project structure
-Lysmarine is made of different repostories. Some are orginal content others are just forks of other projects.  
+Lysmarine is made of different repositories. Some are original content others are just forks of other projects.  
 
 ## Lysmarine
 > [lysmarine](https://gitlab.com/lysmarine/lysmarine) is the main repository.

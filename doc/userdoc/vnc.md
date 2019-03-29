@@ -14,7 +14,7 @@ The service is disabled by default for security reason. Prior to enable it you s
  sudo systemctl enable x11vnc.service
  ```
 
-To prevent dissable the automatic launch at boot :
+To prevent disable the automatic launch at boot :
 
 ```
 sudo systemctl stop x11vnc.service

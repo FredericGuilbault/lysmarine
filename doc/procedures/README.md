@@ -16,13 +16,17 @@ Then you can find the NOOBS at location `work/xxx-lysmarine/export-noobs/`
 
 The doc for lysmarine is generated with http://docsify.js.org
 
-To use it locally, First install docsify:
+To use it locally, First install docsify package from npm:
 ```
   sudo npm i docsify-cli -g
 ```
-Init
+
+Then, download lysmarine documentation.
 ```
-docsify -l true  init ./
+https://gitlab.com/lysmarine/lysmarine.git
+cd lysmarine
+
+# docsify -l true  init ./doc
 
 ```
 

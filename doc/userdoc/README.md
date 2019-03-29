@@ -2,7 +2,7 @@
 # What is LysMarine
 LysMarine a linuxOS based on the raspbian core designed to run on a raspberry.
 
-The goal is to provide a stable, lowcost navigation computer for boats.
+The goal is to provide a stable, low-cost navigation computer for boats.
 
 
 ## The featured applications are

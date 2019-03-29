@@ -3,7 +3,7 @@
 <br>
 
 # Download & install
-Lysmarine is still in the early stage, there is no lysmarine.iso image you can just put on a SD card yet. The Developement version is available throu manual build on the [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen) repository and expect rough edges.  
+Lysmarine is still in the early stage, there is no lysmarine.iso image you can just put on a SD card yet. The Development version is available through manual build on the [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen) repository and expect rough edges.  
 
 # Documentation
 ### &nbsp; &nbsp; [ Download, Install, Build and Debug procedures ](doc/procedures/README.md)
@@ -13,3 +13,9 @@ Lysmarine is still in the early stage, there is no lysmarine.iso image you can j
 ###  &nbsp; &nbsp; [ Hardening guide ](doc/userdoc/hardening.md)
 
 ###  &nbsp; &nbsp; [ User documentation ](doc/userdoc/README.md)    &nbsp; &nbsp; (the "How do I")
+
+
+#Contact
+[Bugs and Issues](https://gitlab.com/lysmarine/lysmarine/issues)
+
+[Facebook](https://www.facebook.com/lysmarineOS)

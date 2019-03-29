@@ -10,7 +10,7 @@ sudo cp /usr/share/zoneinfo/America/Montreal /etc/localtime
 
 # Passwords lysmarine come with default password. You are strongly advised to change them.
 
- - Change thedefault user (pi) password with the `passwd` command.
+ - Change the default user (pi) password with the `passwd` command.
  - Il you plan to use VNC, change the default password with the command `vncpasswd`.
  - Create signalk a administrative account: Go to Menu > Signal K   In the browser, Press Login button upper right.
 

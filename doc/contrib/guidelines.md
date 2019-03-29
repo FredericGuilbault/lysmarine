@@ -1,5 +1,5 @@
 # Contribution guidelines
-Lysmarine have a github account for a better reachout but the actual work append on gitlab at
+Lysmarine have a github account for a  better reach out, but the actual work append on gitlab at
 [https://gitlab.com/lysmarine](https://gitlab.com/lysmarine).
 
 Most of lysmarine is created in the [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen) repository.
@@ -26,4 +26,4 @@ If you have found an issue or just something that don't feel right. Feel free to
   If you work on a feature, it's best to do it on a separate branch forked from `develop` so the `PR` can be reviewed without preventing you to do some other works.(Or force lysmarine to accept multiples features/fix as a whole).
 
 ## Community guidelines
-TODO. But the basic apply, Be exelent to each others.
+TODO. But the basic apply, Be excellent to each others.
