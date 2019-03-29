@@ -9,7 +9,19 @@
 	<meta name="description" content="Navigational operating system for Raspberrypi">
 
   <link rel="stylesheet" href="theme-simple-dark.css">
-	<style> :root { --theme-hue: 325; } </style>
+	<style>
+	:root {
+		--theme-hue: 325;
+		--cover-background-color: hsl(var(--theme-hue), 25%, 60%);
+	 }
+
+	.cover.show{
+		background-image: url('water.jpg') !important;
+		--cover-background-color: inerith;
+		background-size: cover !important;
+	}
+
+	</style>
 </head>
 
 <body>

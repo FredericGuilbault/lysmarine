@@ -7,7 +7,7 @@ Lysmarine is made of different repositories. Some are original content others ar
 It contain:
 - Project page.
 - Documentation.
-- The Lysmarine Noob image.
+- The Lysmarine image.
 - Install procedure.
 - Issue tracker.
 

@@ -10,7 +10,7 @@ Lysmarine is still in the early stage, there is no lysmarine.iso image you can j
 
 ###  &nbsp; &nbsp; [ Project structure and contribution guidelines ](doc/contrib/README.md)
 
-###  &nbsp; &nbsp; [ Hardening guide ](doc/userdoc/hardening.md)
+###  &nbsp; &nbsp; [ First run, What to do ](doc/userdoc/firstboot.md)
 
 ###  &nbsp; &nbsp; [ User documentation ](doc/userdoc/README.md)    &nbsp; &nbsp; (the "How do I")
 

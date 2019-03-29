@@ -12,7 +12,7 @@ Now, Since version 0.8 workflow goes like this:  .
  - Hot fixes append on a branch named from the version number, then merged to `master` when ready.
  - Commits from upstream append on the `develop` branch only.
  - Releases (including fixes) are tagged with their version number.
- - The official NOOBS image are compiled from `master`.  
+ - The release images are compiled from `master`.  
 
 
 ## Issues
