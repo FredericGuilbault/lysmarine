@@ -23,7 +23,7 @@ physical GPS ===> physical USB port ===> udev rules ===> manage_gps.sh ===> gpsd
 | u-blox AG, u-blox 5 (tested with Navilock NL-402U) [linux module: cdc_acm]|Unknown||
 | u-blox AG, u-blox 6 (tested with GNSS Evaluation Kit TCXO) [linux module: cdc_acm]|Unknown||
 
-### debugging
+### Debugging
   Boot without having the device connected then plug it and fallow the debug chain bellow
 
  - If `ls /dev/ttyLYS*` Output a file. this mean that udev have reconised the device you plugged as a USB GPS.

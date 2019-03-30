@@ -1,18 +1,20 @@
-
 <br>
 <br>
 
-# Download & install
-&nbsp; &nbsp; &nbsp; &nbsp;[Get Started](../install.md)
+# Get Starded
+&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](../install.md)
 
-# Documentation
-### &nbsp; &nbsp; [ Download, Install, Build and Debug procedures ](doc/procedures/README.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ First run, What to do ](doc/userdoc/firstboot.md)
 
-###  &nbsp; &nbsp; [ Project structure and contribution guidelines ](doc/contrib/README.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ User documentation ](doc/userdoc/README.md)
 
-###  &nbsp; &nbsp; [ First run, What to do ](doc/userdoc/firstboot.md)
 
-###  &nbsp; &nbsp; [ User documentation ](doc/userdoc/README.md)    &nbsp; &nbsp; (the "How do I")
+
+# Developers
+&nbsp; &nbsp; &nbsp; &nbsp; [ Project structure and contribution guidelines ](doc/contrib/README.md)
+
+&nbsp; &nbsp; &nbsp; &nbsp; [ Build and Debug procedures ](doc/procedures/README.md)
+
 
 
 # Contact

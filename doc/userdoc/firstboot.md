@@ -8,7 +8,8 @@ Then copy it to `/etc/localtime`
 sudo cp /usr/share/zoneinfo/America/Montreal /etc/localtime
 ```
 
-# Passwords lysmarine come with default password. You are strongly advised to change them.
+# Passwords
+> lysmarine come with default password. You are strongly advised to change them.
 
  - Change the default user (pi) password with the `passwd` command.
  - Il you plan to use VNC, change the default password with the command `vncpasswd`.
